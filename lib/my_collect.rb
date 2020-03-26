@@ -2,7 +2,7 @@ def my_collect(array)
   i = 0
   result =[]
   while i < array.size
-    result >> (yield 
+    result >> (yield array[i]) 
   end
 end
 
